@@ -220,6 +220,7 @@
 				TargetAttributes = {
 					73EEDF451FB4B5BC0007CC5D = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZWAZDJNL35;
 						ProvisioningStyle = Automatic;
 					};
 					73EEDF591FB4B5BC0007CC5D = {
@@ -500,10 +501,13 @@
 			baseConfigurationReference = 51CDB1C06FE6142172B0D34B /* Pods-ReactiveTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZWAZDJNL35;
 				INFOPLIST_FILE = ReactiveTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hm.ReactiveTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -513,10 +517,13 @@
 			baseConfigurationReference = 57BB54AE9720555BD4BB0671 /* Pods-ReactiveTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZWAZDJNL35;
 				INFOPLIST_FILE = ReactiveTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hm.ReactiveTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -594,6 +601,7 @@
 				73EEDF701FB4B5BC0007CC5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73EEDF711FB4B5BC0007CC5D /* Build configuration list for PBXNativeTarget "ReactiveTestTests" */ = {
 			isa = XCConfigurationList;
@@ -602,6 +610,7 @@
 				73EEDF731FB4B5BC0007CC5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73EEDF741FB4B5BC0007CC5D /* Build configuration list for PBXNativeTarget "ReactiveTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -610,6 +619,7 @@
 				73EEDF761FB4B5BC0007CC5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
