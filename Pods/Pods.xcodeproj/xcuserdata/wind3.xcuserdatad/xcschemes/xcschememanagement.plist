@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ExpandableLabel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-ReactiveTest.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2B7ACAB28F6A56AB9DAF9D7109D88322</key>
+		<key>1223A200644FE41AA8276D5EFBE9814F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>76406316C11E51D5FE9DAACD0EF847B1</key>
+		<key>1CE7AB66B08A2D1902BDB35C318B04C8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C45D8A22B459611CE100CEDF6B09EDBF</key>
+		<key>1FE9B163BCAC7AD27F0C634A44A247A7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FA066B0FE30D710A38B1251F05E39CD8</key>
+		<key>30E01F11C650E0C3126E563C155D51EF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5D1258B50BF62276E5A398678CE31B21</key>
 		<dict>
 			<key>primary</key>
 			<true/>

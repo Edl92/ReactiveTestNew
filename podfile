@@ -3,3 +3,4 @@ use_frameworks!
 target 'ReactiveTest'
     pod 'ReactiveCocoa'
     pod 'ReactiveSwift'
+    pod 'ExpandableLabel', '0.2.6'

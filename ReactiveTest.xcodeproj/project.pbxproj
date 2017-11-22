@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2239DB45819B02698C467E88 /* Pods_ReactiveTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29184E6071F18D19FAFC847F /* Pods_ReactiveTest.framework */; };
 		734977C21FBAEBCD00334CA3 /* SignalExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734977C11FBAEBCD00334CA3 /* SignalExt.swift */; };
 		73859C051FBA056800A91421 /* MapFlatFilterReduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73859C041FBA056800A91421 /* MapFlatFilterReduce.swift */; };
+		7396FE7E1FC5962C00E4E06C /* LabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7396FE7D1FC5962C00E4E06C /* LabelTableViewCell.swift */; };
 		73EEDF4A1FB4B5BC0007CC5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EEDF491FB4B5BC0007CC5D /* AppDelegate.swift */; };
 		73EEDF4C1FB4B5BC0007CC5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EEDF4B1FB4B5BC0007CC5D /* ViewController.swift */; };
 		73EEDF4F1FB4B5BC0007CC5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73EEDF4D1FB4B5BC0007CC5D /* Main.storyboard */; };
@@ -17,6 +17,7 @@
 		73EEDF541FB4B5BC0007CC5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73EEDF521FB4B5BC0007CC5D /* LaunchScreen.storyboard */; };
 		73EEDF5F1FB4B5BC0007CC5D /* ReactiveTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EEDF5E1FB4B5BC0007CC5D /* ReactiveTestTests.swift */; };
 		73EEDF6A1FB4B5BC0007CC5D /* ReactiveTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EEDF691FB4B5BC0007CC5D /* ReactiveTestUITests.swift */; };
+		97127F666105A54A651A78A9 /* Pods_ReactiveTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548752A7C170C9786C305E5 /* Pods_ReactiveTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		29184E6071F18D19FAFC847F /* Pods_ReactiveTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		51CDB1C06FE6142172B0D34B /* Pods-ReactiveTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveTest/Pods-ReactiveTest.debug.xcconfig"; sourceTree = "<group>"; };
-		57BB54AE9720555BD4BB0671 /* Pods-ReactiveTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveTest/Pods-ReactiveTest.release.xcconfig"; sourceTree = "<group>"; };
 		734977C11FBAEBCD00334CA3 /* SignalExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignalExt.swift; sourceTree = "<group>"; };
 		73859C041FBA056800A91421 /* MapFlatFilterReduce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapFlatFilterReduce.swift; path = ../MapFlatFilterReduce.swift; sourceTree = "<group>"; };
+		7396FE7D1FC5962C00E4E06C /* LabelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelTableViewCell.swift; sourceTree = "<group>"; };
 		73EEDF461FB4B5BC0007CC5D /* ReactiveTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73EEDF491FB4B5BC0007CC5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73EEDF4B1FB4B5BC0007CC5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +54,9 @@
 		73EEDF651FB4B5BC0007CC5D /* ReactiveTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73EEDF691FB4B5BC0007CC5D /* ReactiveTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveTestUITests.swift; sourceTree = "<group>"; };
 		73EEDF6B1FB4B5BC0007CC5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A548752A7C170C9786C305E5 /* Pods_ReactiveTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D8E8C367D0E0071FCCAD45 /* Pods-ReactiveTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveTest/Pods-ReactiveTest.debug.xcconfig"; sourceTree = "<group>"; };
+		D205E7AFD27615787BC9B12D /* Pods-ReactiveTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveTest/Pods-ReactiveTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2239DB45819B02698C467E88 /* Pods_ReactiveTest.framework in Frameworks */,
+				97127F666105A54A651A78A9 /* Pods_ReactiveTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,8 +92,8 @@
 				73EEDF5D1FB4B5BC0007CC5D /* ReactiveTestTests */,
 				73EEDF681FB4B5BC0007CC5D /* ReactiveTestUITests */,
 				73EEDF471FB4B5BC0007CC5D /* Products */,
-				91B695BE86AF13D3BB1964E4 /* Pods */,
-				AA4AF3708FBBFF13D7E725A8 /* Frameworks */,
+				C6183E0861180B95BA08F29A /* Pods */,
+				F46A7B6C4EF00CF0D1222123 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,6 +118,7 @@
 				73EEDF521FB4B5BC0007CC5D /* LaunchScreen.storyboard */,
 				73EEDF551FB4B5BC0007CC5D /* Info.plist */,
 				734977C11FBAEBCD00334CA3 /* SignalExt.swift */,
+				7396FE7D1FC5962C00E4E06C /* LabelTableViewCell.swift */,
 			);
 			path = ReactiveTest;
 			sourceTree = "<group>";
@@ -138,19 +141,19 @@
 			path = ReactiveTestUITests;
 			sourceTree = "<group>";
 		};
-		91B695BE86AF13D3BB1964E4 /* Pods */ = {
+		C6183E0861180B95BA08F29A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				51CDB1C06FE6142172B0D34B /* Pods-ReactiveTest.debug.xcconfig */,
-				57BB54AE9720555BD4BB0671 /* Pods-ReactiveTest.release.xcconfig */,
+				C5D8E8C367D0E0071FCCAD45 /* Pods-ReactiveTest.debug.xcconfig */,
+				D205E7AFD27615787BC9B12D /* Pods-ReactiveTest.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		AA4AF3708FBBFF13D7E725A8 /* Frameworks */ = {
+		F46A7B6C4EF00CF0D1222123 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				29184E6071F18D19FAFC847F /* Pods_ReactiveTest.framework */,
+				A548752A7C170C9786C305E5 /* Pods_ReactiveTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -162,12 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73EEDF6E1FB4B5BC0007CC5D /* Build configuration list for PBXNativeTarget "ReactiveTest" */;
 			buildPhases = (
-				A65CE5F6387847668E71CD45 /* [CP] Check Pods Manifest.lock */,
+				84F77DEA235E7D4B86EADA5A /* [CP] Check Pods Manifest.lock */,
 				73EEDF421FB4B5BC0007CC5D /* Sources */,
 				73EEDF431FB4B5BC0007CC5D /* Frameworks */,
 				73EEDF441FB4B5BC0007CC5D /* Resources */,
-				4423723DD7C8A91AF4997CA8 /* [CP] Embed Pods Frameworks */,
-				5B0EC30C45B26FF21DA16EFF /* [CP] Copy Pods Resources */,
+				8564BBCABA34ED243625D379 /* [CP] Embed Pods Frameworks */,
+				2C4BE16809078A5480A7E62F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -289,29 +292,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4423723DD7C8A91AF4997CA8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveTest/Pods-ReactiveTest-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveTest/Pods-ReactiveTest-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5B0EC30C45B26FF21DA16EFF /* [CP] Copy Pods Resources */ = {
+		2C4BE16809078A5480A7E62F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -326,7 +307,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveTest/Pods-ReactiveTest-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A65CE5F6387847668E71CD45 /* [CP] Check Pods Manifest.lock */ = {
+		84F77DEA235E7D4B86EADA5A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -344,6 +325,30 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		8564BBCABA34ED243625D379 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveTest/Pods-ReactiveTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ExpandableLabel/ExpandableLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ExpandableLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveTest/Pods-ReactiveTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -352,6 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73859C051FBA056800A91421 /* MapFlatFilterReduce.swift in Sources */,
+				7396FE7E1FC5962C00E4E06C /* LabelTableViewCell.swift in Sources */,
 				734977C21FBAEBCD00334CA3 /* SignalExt.swift in Sources */,
 				73EEDF4C1FB4B5BC0007CC5D /* ViewController.swift in Sources */,
 				73EEDF4A1FB4B5BC0007CC5D /* AppDelegate.swift in Sources */,
@@ -506,7 +512,7 @@
 		};
 		73EEDF6F1FB4B5BC0007CC5D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51CDB1C06FE6142172B0D34B /* Pods-ReactiveTest.debug.xcconfig */;
+			baseConfigurationReference = C5D8E8C367D0E0071FCCAD45 /* Pods-ReactiveTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -522,7 +528,7 @@
 		};
 		73EEDF701FB4B5BC0007CC5D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57BB54AE9720555BD4BB0671 /* Pods-ReactiveTest.release.xcconfig */;
+			baseConfigurationReference = D205E7AFD27615787BC9B12D /* Pods-ReactiveTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
