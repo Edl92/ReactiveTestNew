@@ -57,10 +57,8 @@ class MapFlatFilterReduce : NSObject{
     }
     
     func chainMethod(array : Array<Double>) -> Array<Double>{
-        
         let evenSquares = array.map{$0 * $0}.filter{$0 .truncatingRemainder(dividingBy: 2) == 0}
         return evenSquares
-    
     }
 
 

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2239DB45819B02698C467E88 /* Pods_ReactiveTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29184E6071F18D19FAFC847F /* Pods_ReactiveTest.framework */; };
+		734977C21FBAEBCD00334CA3 /* SignalExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734977C11FBAEBCD00334CA3 /* SignalExt.swift */; };
 		73859C051FBA056800A91421 /* MapFlatFilterReduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73859C041FBA056800A91421 /* MapFlatFilterReduce.swift */; };
 		73EEDF4A1FB4B5BC0007CC5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EEDF491FB4B5BC0007CC5D /* AppDelegate.swift */; };
 		73EEDF4C1FB4B5BC0007CC5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EEDF4B1FB4B5BC0007CC5D /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 		29184E6071F18D19FAFC847F /* Pods_ReactiveTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51CDB1C06FE6142172B0D34B /* Pods-ReactiveTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveTest/Pods-ReactiveTest.debug.xcconfig"; sourceTree = "<group>"; };
 		57BB54AE9720555BD4BB0671 /* Pods-ReactiveTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveTest/Pods-ReactiveTest.release.xcconfig"; sourceTree = "<group>"; };
+		734977C11FBAEBCD00334CA3 /* SignalExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignalExt.swift; sourceTree = "<group>"; };
 		73859C041FBA056800A91421 /* MapFlatFilterReduce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapFlatFilterReduce.swift; path = ../MapFlatFilterReduce.swift; sourceTree = "<group>"; };
 		73EEDF461FB4B5BC0007CC5D /* ReactiveTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73EEDF491FB4B5BC0007CC5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				73EEDF501FB4B5BC0007CC5D /* Assets.xcassets */,
 				73EEDF521FB4B5BC0007CC5D /* LaunchScreen.storyboard */,
 				73EEDF551FB4B5BC0007CC5D /* Info.plist */,
+				734977C11FBAEBCD00334CA3 /* SignalExt.swift */,
 			);
 			path = ReactiveTest;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73859C051FBA056800A91421 /* MapFlatFilterReduce.swift in Sources */,
+				734977C21FBAEBCD00334CA3 /* SignalExt.swift in Sources */,
 				73EEDF4C1FB4B5BC0007CC5D /* ViewController.swift in Sources */,
 				73EEDF4A1FB4B5BC0007CC5D /* AppDelegate.swift in Sources */,
 			);
